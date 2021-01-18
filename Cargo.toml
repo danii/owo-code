@@ -1,0 +1,12 @@
+[package]
+name = "owo-code"
+version = "0.1.0"
+authors = ["Daniel Conley <danielc030417@gmail.com>"]
+# Do What the Fuck You want to Public License. 
+license = "WTFPL"
+# OwO Code! Program in your native language!
+description = "OwO Code owo! pwogwam owo in ur nyative wanguage owo!"
+edition = "2018"
+
+[lib]
+proc-macro = true
