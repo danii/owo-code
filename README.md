@@ -2,6 +2,8 @@ OwO Code
 ========
 > This is a joke crate! Don't take this seriously! And don't use in production. (Unless you are the ultimate furry.)
 
+> Warning! This crate uses some strong language, and one or two sexual words. The point of these is not to invoke thoughts of sexual activity, but to exagerate the ridioculousness of the "furry" language for entertainment purposes.
+
 Intwoducing teh OwO Code wanguage owo! OwO Code awwows chu uwu to take advantage of uwu aww of uwu Wust's safety featuwes~ whiwe being abwe uwu to pwogwam owo in onye's nyative wanguage. OwO Code is just Wust~ except aww teh keywowds have been owoified owo! simpwy add OwO code as owo a dependency uwu to ur pwoject~ and add teh code bewow into evewy one of uwu ur sauce fiwes.
 <!--Introducing the OwO Code language! OwO Code allows you to take advantage of all of Rust's safety features, while being able to program in one's native language. OwO Code is just Rust, except all the keywords have been owoified! Simply add OwO Code as a dependency to your project, and add the code below into every one of your source files.-->
 
