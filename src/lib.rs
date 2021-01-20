@@ -73,6 +73,7 @@ fn parse_token(token: TokenTree) -> TokenTree {
 		AAAAAAA => unsafe,
 		usemedaddy => use,
 		howl => where,
-		whine => while
+		whine => while,
+		fuwwy => hvh,
 	})
 }
