@@ -6,6 +6,7 @@ authors = ["Daniel Conley <danielc030417@gmail.com>"]
 license = "WTFPL"
 # OwO Code! Program in your native language!
 description = "OwO Code owo! pwogwam owo in ur nyative wanguage owo!"
+repository = "https://github.com/danii/owo-code.git"
 edition = "2018"
 
 [lib]
