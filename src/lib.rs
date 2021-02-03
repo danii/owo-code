@@ -2,20 +2,21 @@
 //! really need any documentation, doesn't the README.md explain the 79 lines of
 //! code well enough, lol? Also hi there, hope you've been having a good day.
 
-#![feature(decl_macro)]
 use proc_macro::{Group, Ident, TokenStream, TokenTree};
 
 /// Macro for a macro. Nice.
-macro replace_keywords($upon:ident {$($owo:ident => $rust:ident),*}) {
-	match $upon {
-		$(
-			TokenTree::Ident(ident) if ident.to_string() == stringify!($owo) =>
-				TokenTree::Ident(Ident::new(stringify!($rust), ident.span())),
-			TokenTree::Ident(ident) if ident.to_string() == stringify!($rust) =>
-				TokenTree::Ident(Ident::new_raw(stringify!($rust), ident.span())),
-		)*
+macro_rules! replace_keywords {
+	($upon:ident {$($owo:ident => $rust:ident),*})  =>{
+		match $upon {
+			$(
+				TokenTree::Ident(ident) if ident.to_string() == stringify!($owo) =>
+					TokenTree::Ident(Ident::new(stringify!($rust), ident.span())),
+				TokenTree::Ident(ident) if ident.to_string() == stringify!($rust) =>
+					TokenTree::Ident(Ident::new_raw(stringify!($rust), ident.span())),
+			)*
 
-		token => token
+			token => token
+		}
 	}
 }
 
