@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Rewease
-      run: cargo build --release
+      run: cargo build --release --lib
