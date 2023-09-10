@@ -67,6 +67,9 @@ Bewow is a wist of uwu aww of uwu owo code's keywowds and how dey map uwu to wus
 - `usemedaddy` is `use`.
 - `howl` is `where`.
 - `whine` is `while`.
+- `magnyituwude` is `vec`.
+- `fow` is `for`.
+- `dwop` is `drop`.
 
 Fwequentwy Awoo'd Questions
 ---------------------------

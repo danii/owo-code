@@ -75,5 +75,8 @@ fn parse_token(token: TokenTree) -> TokenTree {
 		usemedaddy => use,
 		howl => where,
 		whine => while
+	        magnyituwude => vec,
+                fow => for,
+                dwop => drop
 	})
 }
